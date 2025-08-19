@@ -1,5 +1,4 @@
-from sys import prefix
-from fastapi import APIRouter, FastAPI
+from fastapi import APIRouter
 from pydantic import BaseModel
 
 users_router = APIRouter(prefix='/auth')

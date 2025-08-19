@@ -1,6 +1,4 @@
-from sys import prefix
-from fastapi import APIRouter, FastAPI
-from pydantic import BaseModel
+from fastapi import APIRouter
 
 excercises_router = APIRouter(prefix='/excercises')
 

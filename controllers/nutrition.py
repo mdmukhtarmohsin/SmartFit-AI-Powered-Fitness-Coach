@@ -1,6 +1,4 @@
-from sys import prefix
-from fastapi import APIRouter, FastAPI
-from pydantic import BaseModel
+from fastapi import APIRouter
 
 nutritions_router = APIRouter(prefix='/nutritions')
 
