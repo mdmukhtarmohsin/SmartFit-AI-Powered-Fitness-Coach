@@ -10,5 +10,5 @@ class Progress(BaseModel):
     reps:int
     weights:str
     duration:int
-    calories_burned:str
+    calories_burned:int
     
